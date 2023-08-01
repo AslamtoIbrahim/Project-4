@@ -1,0 +1,142 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Red Hat Display', sans-serif;
+    ;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 600px;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 16px 14px 48px 0px hsla(240, 100%, 73%, 0.29);
+}
+
+.headimg {}
+
+.order {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    height: 100%;
+}
+
+.orsum {
+    font-weight: 900;
+    font-size: 26px;
+    color: hsl(223, 47%, 23%);
+}
+
+.parg{
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+}
+
+
+
+.music {
+    display: flex;
+    /* justify-content: space-between; */
+    width: 100%;
+    align-items: center;
+    background-color: hsla(224, 51%, 61%, 0.096);
+    padding: 10px 14px;
+    border-radius: 10px;
+}
+
+.icon {}
+
+.anpr {
+    padding-left:12px;
+    flex-basis: 0%;
+    flex-grow: 1;
+}
+
+.annual {
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+
+}
+.price {
+    color: hsl(224, 23%, 55%);
+}
+
+.change {
+    font-weight: bold;
+    text-decoration: underline;
+    color: hsl(245, 75%, 52%);
+}
+
+.proceedBtn {
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 12px;
+    border-radius: 12px;
+    font-weight: bold;
+    box-shadow: -1px 9px 12px 13px hsl(245deg 83.21% 58.67% / 16%);
+    cursor: pointer;
+}
+
+.cancelBtn {
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    color: hsl(224, 23%, 55%);
+    font-weight: 800;
+    cursor: pointer;
+    padding: 12px;
+}
+
+.proceedBtn:hover {
+    color: white;
+    background-color: hsl(223, 47%, 23%);
+}
+
+.cancelBtn:hover {
+    background-color: hsla(224, 51%, 61%, 0.096);
+}
+
+@media only screen and (max-width: 465px) {
+    .container {
+        width: 80%;
+        height: 70%;
+    }
+
+    .attribution {
+        margin-top: 25px;
+        text-align: center;
+    }
+
+    .change {}
+
+    .anpr {}
+
+    .icon {}
+}
+
+.attribution {
+    margin-top: 25px;
+}
