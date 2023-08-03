@@ -49,7 +49,7 @@ body {
 
 .parg{
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
     color: hsl(224, 23%, 55%);
 }
 
@@ -95,7 +95,7 @@ body {
     width: 100%;
     padding: 12px;
     border-radius: 12px;
-    font-weight: bold;
+    font-weight: 700;
     box-shadow: -1px 9px 12px 13px hsl(245deg 83.21% 58.67% / 16%);
     cursor: pointer;
 }
@@ -120,18 +120,36 @@ body {
 
 @media only screen and (max-width: 465px) {
 
+    
     body{
-        font-size: 90%;
+        font-size: 80%;
         width: 100%;
     }
     
     .container {
-        /* width: 100%; */
+        width: 90%;
     }
 
     .attribution {
-        margin-top: 25px;
+        margin-top: 22px;
         text-align: center;
+    }
+
+    .orsum{
+        font-size: 26px;
+    }
+
+    .parg{
+        font-size: 16px;
+    }
+
+    .icon {
+        width: 32px;
+        height: 32px;
+    }
+
+    .proceedBtn{
+        font-weight: 600;
     }
 }
 
